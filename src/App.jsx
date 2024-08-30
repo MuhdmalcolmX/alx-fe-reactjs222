@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-      <div>
+      {/* <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -33,13 +33,21 @@ function App() {
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
+<<<<<<< HEAD
       </p>
+=======
+      </p> */}
+>>>>>>> 8588879b5a44206ff6cdfaa5847426ff5c73da3c
 
       <WelcomeMessage />
+
       <Header />
+      
       <MainContent />
-      <Footer />
       <UserProfile name="Alice" age="25" bio="Loves hiking and photography" />
+
+      <Footer />
+      
     </>
   )
 }
